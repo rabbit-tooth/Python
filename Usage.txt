@@ -1,0 +1,8 @@
+git clone https://github.com/rabbit-tooth/Python.git
+git status
+git add GetImg.py
+git config --global user.email "leop1518@163.com"
+git config --global user.name "rabbit-tooth"
+git commit -m "Crawler"
+git pull
+git push
