@@ -14,7 +14,7 @@ for line in inp:
 
     if linNum==0:                                   #Top line
         stream = ""
-        for i in range(9,len(list)-1):
+        for i in range(9,len(list)):
             stream += "," + list[i]
         stream += "\n"
         out.write(stream)
@@ -22,7 +22,7 @@ for line in inp:
         continue
 
     stream=list[2]+","+list[0]+","+list[1]          #Ordinary line
-    for i in range(9,len(list)-1):
+    for i in range(9,len(list)):
         if list[i]=="0/0":
             stream += "," + REF
         elif list[i]=="1/1":
